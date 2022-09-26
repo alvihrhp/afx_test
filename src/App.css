@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d39248;
+  padding: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-container {
+  width: 100%;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  padding: 0.75rem
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-control {
+  margin: 0px !important;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.absolute {
+  position: absolute;
+  left: 0;
+  top: 88px;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.search-place-result {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.icon-place-container {
+  margin-right: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-place {
+  width: 30px;
+  height: 30px;
+}
+
+.search-place-detail {
+  width: calc(100% - 78px);
+}
+
+.border {
+  border-top: 0.5px solid black;
+  margin-block: 1rem;
+}
+
+.seperator {
+  margin: 2rem 0 0 0;
+}
+
+.maps-container {
+  width: 100%;
+  height: 500px;
 }

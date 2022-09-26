@@ -1,0 +1,4 @@
+export enum mapsActionType {
+  FETCH_SEARCH = "FETCH_SEARCH",
+  FETCH_SEARCH_LOADING = "FETCH_SEARCH_LOADING",
+}
